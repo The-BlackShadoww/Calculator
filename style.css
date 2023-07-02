@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edebd7;
+}
+
+
+.calculator{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, .2);
+}
+
+
+#inputBox{
+    background: #414833;
+    width: 100%;
+    outline: none;
+    padding: 35px 15px;
+    margin: 0 0 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: right;
+    border: none;
+    border-radius: 10px 10px 0 0;
+}
+
+
+#inputBox::placeholder {
+    color: #ffffff;
+}
+
+
+.btn_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn {
+    width: calc(100% / 4);
+    height: 90px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    border: .5px solid #e3d5ca;
+    cursor: pointer;
+    background: #eae0d5;
+
+    
+}
+
+
+.btn_equal {
+    border-radius: 0 0 10px 0;
+}
+
+
+.doubleZero {
+
+    border-radius: 0 0 0 10px;
+}
+
+
+.btn_equal {
+    background-color: #d62828;
+    color: #eae0d5;
+}
